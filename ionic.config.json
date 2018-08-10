@@ -1,0 +1,7 @@
+{
+  "name": "arkhos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
