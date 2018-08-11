@@ -1,0 +1,38 @@
+page-mb {
+    .toolbar-title{
+        margin-right: 55px;
+    }
+    .topBtns{
+        width: 100%;
+        padding: 20px;
+        //background-color: red;
+    }
+    #thumbCtn{
+        width: 100%;
+        padding: 30px;
+        margin-top: 30px;
+    }
+    .btmBtns{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+        //background-color: red;
+    }
+    .nameCtn{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .button-md{
+        width: 40%;
+        height: 50px;
+    }
+    .button-md{
+        border-radius: 10px;
+        font-size: 16px;
+        background-color: #515f79;
+    }
+    .button-md.activated { 
+        background-color: #414e68;
+    }
+}

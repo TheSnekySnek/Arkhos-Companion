@@ -1,0 +1,20 @@
+page-setup {
+    .setup-item-container{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+    }
+    .back-button.show-back-button {
+        display: none;
+    }
+    .button-md{
+        width: 130px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: #515f79;
+    }
+    .button-md.activated { 
+        background-color: #414e68;
+    }
+}

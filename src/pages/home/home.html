@@ -1,14 +1,26 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Arkhos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="home-item-container">
+      <button ion-button class="home-item" (click)="selPage('coins')" disabled>Get Coins</button>
+  </div> 
+  <div class="home-item-container">
+      <button ion-button class="home-item" (click)="selPage('mb')">MusicBots</button>
+  </div> 
+  <div class="home-item-container">
+      <button ion-button class="home-item" disabled>Set Roles</button>
+  </div> 
+  <div class="home-item-container">
+      <button ion-button class="home-item" disabled>Streams</button>
+  </div> 
+  <div id="userDisplay">
+    <img src="{{userPic}}" alt="">
+    <p class="username">{{userName}}</p>
+  </div>
 </ion-content>
